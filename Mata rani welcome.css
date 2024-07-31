@@ -1,0 +1,200 @@
+*{
+    
+  margin: 0;
+  padding: 0;  
+    
+    
+    
+    
+    
+}
+
+
+body{
+ 
+ display: flex;
+justify-content: center;
+align-items: center;
+
+ background: black;
+ 
+ 
+ 
+ 
+
+}
+
+
+   
+marquee{
+font-height: bold;
+font-style: italic;
+color: white; 
+text-align: left; 
+position: absolute;
+width: 360px;
+font-size: 30px;
+top: 20px;
+    
+    
+    
+    
+}
+
+
+
+
+h1{
+    
+   color: white;
+   text-align: right;
+   background: blue;
+    height: 50px;
+    transition: .9s;
+    
+    }
+    
+h1:hover{
+    
+  width: 0px;  
+    
+    
+    
+}    
+    
+    
+    
+    
+    
+ 
+    
+    
+  
+input{
+
+ background-size: cover;
+  box-shadow: 0px 0px 30px 7px white;
+
+ position: relative;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  transition: .9s;
+  animation: ab 2s infinite;
+    
+
+}
+
+
+
+
+input:hover{
+    
+ background: aqua; 
+ color: black; 
+  width: 90px;
+  box-shadow:  0px 0px 50px 10px aqua;
+ 
+    
+    
+    
+}
+
+
+
+audio{
+    position: absolute;
+    left: -30px;
+    top: -57px;
+    width: 350px;
+    *border-radius: 90px;
+    *border: 2px solid white;
+    accent-color: red;
+    align-items: center;
+    Display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+audio:hover{
+     
+    width: 0px;
+    
+    
+}
+
+
+
+
+
+
+.card{
+    
+  position: relative;
+  width: 300px;  
+  height: 350px;
+  perspective: 1000px;
+  
+    
+    
+    
+}
+
+.card-inner{
+    
+ position: absolute;
+ width: 100%;   
+ height: 100%;
+ transition: transform 0.8s;
+ transform-style: preserve-3d;
+ 
+}
+
+
+.card:hover .card-inner{
+    
+transform: rotateY(-180deg);
+
+  
+    
+}
+.card-front, card-back{
+
+position: absolute;
+left: -10px;
+top: 70px;
+border-radius: 50%;
+
+width: 300px; 
+
+border: 2px solid white;
+height: 300px; 
+backface-visibility: hidden;
+*background: green;
+background-image: url("mata.jpg");
+background-size: cover;
+*background: linear-gradient(to bottom right, #ff4b2b, #ff416c);
+
+
+
+
+
+
+.card-inner{
+ 
+ 
+ background: blue;   back
+  background: linear-gradient(to bottom right, #2b32b2, #416cff);  
+  color: white;
+  transform: rotateY(180deg); 
+    
+    
+    
+    
+    
+}
+    
